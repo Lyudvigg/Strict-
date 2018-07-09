@@ -1,1 +1,1 @@
-log.txt
+console.log("Hello Word");
