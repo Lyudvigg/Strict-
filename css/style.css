@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F9F9;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid {
+    max-width: 1600px;
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+/*-------------------------Header-------------------*/
+
+.navbar {
+    background-color: #F6F9F9;
+}
+
+.logo_text {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2D3950;
+}
+
+.header {
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px 0px 90px;
+}
+
+.strict {
+    font-size: 120px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+}
+
+.line {
+    width: 600px;
+    height: 2px;
+    background-color: #15A4FA;
+    display: block;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.header_introduction {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.button_action {
+    width: 182px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #15A4FA;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #15A4FA;
+    margin-top: 65px;
+}
+
+.button_action span {
+    color: white;    
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.down {
+    background-image: url(../img/down.png);
+    display: block;
+    background-repeat: no-repeat;
+    height: 12px;
+    background-position:center;
+    margin-top: 176px;
+}
+
+/*--------------------------Simple_design------------------------------*/
+
+.simple_design {
+    padding: 80px 0px 110px;
+}
+
+.simple_design_title {
+    color: #2D3950;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.simple_design_text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+}
+
+/*----------------------------Feature-------------------------------*/
+
+section.properties .feature .feature_icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.properties {
+    background-color: #fff;
+    padding: 65px 0px 65px;
+}
+
+.feature_text {
+    text-align: center;
+    color: #2D3950;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding-top: 23px;
+}
+ 
+.feature_after_text {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+    padding-top: 12px;
+}
+
+/*--------------------------Working_description--------------------------------*/
+
+.working_description {
+    padding: 80px 0px 115px;
+}
+
+.about_work {
+    text-align: center;
+    font-weight: 400;
+    font-size: 41px;
+    color: #2D3950;
+}
+
+.contact_my_work {
+    padding: 30px 0px 80px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #909090;
+}
+
+.working_drawings {
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    background-position: 50% 50%;
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------Form-----------------------------------*/
+
+.form {
+    padding: 74px 0px 110px 0px;
+    background-image: url(../img/form_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.form_title {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 41px;
+}
+
+.form_ensure {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: #999999;
+}
+
+input {   
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.input_submit {
+    background-color: #15A4FA;
+    border: 1px solid #15A4FA;
+    color: white;
+    text-align: center;
+    padding: 17px 51px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#message {
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, -1) !important; 
+    width: 555px;
+    max-width: 555px;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: auto;
+}
+
+#Subscribe_Newsletter {
+    display: inline-block;
+}
+
+/*-----------------------footer---------------------------------------*/
+
+footer {
+    padding: 40px 0px;
+}
+
+.footer_text {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.social_icon {
+    float: right;
+}
+
+.icons {
+    font-size: 40px;
+    display: inline-block;
+}
+
+/*-----------------Media------------------------*/
+
+@media(min-width:1200px) {
+    .header {
+        background-position: 50% 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .input_submit {
+        margin-left: 234px;
+    }
+}
+ 
+@media (max-width: 991px) {
+    .working_drawings {
+        height: 500px;
+    }
+        
+    #input_name {
+        max-width: 400px;
+    }
+    
+    #input_email {
+        max-width: 400px;
+    }
+    
+    #message {
+        margin-left: auto;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .line {
+        width: 500px;
+    }
+    
+    .feature{
+        margin-top: 30px;    
+    }
+    
+    .about_work {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px) {    
+    .strict {
+        font-size: 50px;
+    }
+    
+    .line {
+        width: 200px;
+    }
+    
+    .working_drawings {
+        height: 260px;
+    }
+        
+    #input_name {
+        max-width: 200px;
+    }
+    
+    #input_email {
+        max-width: 200px;
+    }
+    
+    #message {
+        margin-left: auto;
+        max-width: 200px;
+    }
+    
+    .icons {
+        font-size: 25px;
+    } 
+    
+    .about_work {
+        font-size: 22px;
+    } 
+    
+    .simple_design_title {
+        font-size: 25px;
+    }
+    
+    .simple_design_text {
+        font-size: 15px;
+    }
+    
+    .footer_text {
+        font-size: 11px;
+    }
+}
